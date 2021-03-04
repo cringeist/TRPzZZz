@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/0mdx1/TRPzZZz/issues"
   },
-  "homepage": "https://github.com/0mdx1/TRPzZZz#readme"
+  "homepage": "https://github.com/0mdx1/TRPzZZz#readme",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
 }
