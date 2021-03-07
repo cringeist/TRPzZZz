@@ -1,8 +1,16 @@
-const myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
 
 
-const trigger = document.getElementById('modalTrigger');
+$(document).ready(function(){
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
 
-trigger.addEventListener('click', () => {
-    myModal.show();
-})
+    $(".zoom").hover(function(){
+
+        $(this).addClass('transition');
+    }, function(){
+
+        $(this).removeClass('transition');
+    });
+});
