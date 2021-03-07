@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/0mdx1/TRPzZZz#readme",
   "devDependencies": {
-    "bootstrap": "^5.0.0-beta2"
-  }
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.14.3"
+  },
+  "dependencies": {}
 }
